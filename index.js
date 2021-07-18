@@ -7,7 +7,7 @@ app.use(express.json())
 app.use(express.urlencoded())
 app.use(cors())
 
-mongoose.connect('mongodb+srv://admin1-navneet:iiU74acn3WLkz5Gc@cluster0.0ieuo.mongodb.net/customerDB || mongodb://localhost:27017/customerDB', {
+mongoose.connect('mongodb+srv://admin-navneet:bloodlines11@cluster0.bxi3o.mongodb.net/customer', {
     useNewUrlParser: true, 
     useUnifiedTopology: true
     
