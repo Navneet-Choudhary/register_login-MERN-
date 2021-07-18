@@ -25,9 +25,6 @@ const userSchema = new mongoose.Schema({
 
 const User = new mongoose.model('User', userSchema)
 
-app.get('/', function(req, res) {
-    res.send("hello")
-})
 
 app.post('/login', (req, res) => {
     const {email, password} = req.body
